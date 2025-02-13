@@ -4,9 +4,10 @@ nell array. */
 let matematica = []
 
 for (let i = 0; i< 6; i++){
-    cost userNumb = matematica (prompt("type a number"))
+    cost userNumb = parseInt (prompt("type a number"))
+    console.log(userNumb);
 };
 if (numero % 2 !== 0) {
-    numeriDispari.push(numero);
+    numeriDispari.push(userNumb);
 }
     console.log(matematica)
