@@ -7,6 +7,18 @@ if (number > numbertwo){
  console.log ("il numero maggiore è" + number)
 
 };
+
 else if (number < numbertwo) {
     console.log("il numero maggiore è" + numbertwo)
-}
+};
+
+
+
+const firstNumb = Number(prompt('Type the first number'));
+const secondNumb = Number(prompt('Type the second number'));
+console.log(firstNumb, secondNumb);
+
+if (firstNumb > secondNumb) {
+    console.log(`The first number is greater: ${firstNumb}`);
+}; 
+
