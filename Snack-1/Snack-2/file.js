@@ -3,9 +3,12 @@
 const firstWord = prompt ("type a word");
 const secondWord = prompt ("type a word");
 
-if (firstWord > secondWord){ console.log (`long word ${firstWord}is more long than ${secondWord}`)
+if (firstWord > secondWord){ 
+    console.log (`long word ${firstWord}is more long than ${secondWord}`)
 };
+
 else if (secondWord > firstWord) {
     console.log(`the first word: ${firstWord}is more smaller than ${secondWord}`)
 };
+
 else console.log (word are equal):
