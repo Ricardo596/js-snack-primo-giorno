@@ -1,7 +1,7 @@
 /* l'utente inserisce due parole in successione, con due prompt. Il softare stampa la parola più corta, poi la più lunga. */
 
-const firstWord = prompt ("parallelepipedo");
-const secondWord = prompt ("triangolo");
+const firstWord = prompt ("type a word");
+const secondWord = prompt ("type a word");
 
 if (firstWord > secondWord){ console.log (`long word ${firstWord}is more long than ${secondWord}`)
 };
